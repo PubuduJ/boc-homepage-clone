@@ -693,3 +693,36 @@ main>.row:last-child>.container>.col:last-child>p:last-of-type{
     font-size: 0.7rem;
     color: #8a8a8a;
 }
+#popup {
+    position: fixed;
+    left: 10px;
+    bottom: 40px;
+    width: 450px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(131, 121, 109, 0.596);
+    z-index: 999;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 0px black;;
+}
+#popup p {
+    padding-top: 10px;
+    text-align: justify;
+}
+#close-wrapper {
+    padding: 5px 0;
+    cursor: pointer;
+    width: 70px;
+}
+#close-wrapper:hover {
+    color: red;
+}
+#close-wrapper:hover ion-icon {
+    color: red;
+}
+#close-wrapper>ion-icon {
+    vertical-align: sub;
+    margin-right: 5px;
+    color: rgba(247, 6, 6, 0.801);
+    font-size: 1.2rem;
+}
