@@ -320,10 +320,41 @@ aside a ion-icon{
 }
 
 #bubble-wrapper{
+    position: relative;
     display: inline-block;
     background-color:#ffde00;
     border-radius: 100%;
     width: 25px;
     height: 25px;
     padding: 4px;
+}
+
+#bubble-wrapper::before{
+    display: block;
+    content: "";
+    background-color: #ffdd0057;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* z-index: 1; */
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    animation-name: wave;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    from{
+        transform: scale(0);
+        opacity: 1;
+    }
+    to{
+        transform: scale(15);
+        opacity: 0.5;
+    }
 }
