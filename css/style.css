@@ -29,8 +29,8 @@ h2{
 }
 
 h3{
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 h4{
@@ -210,4 +210,120 @@ nav>li>a:hover{
 
 #misc-row .btn:hover{
     background-color: #0865a9;
+}
+
+/* Footer */
+
+footer .row{
+    background-color: #808285;
+}
+
+#copyright-row{
+    background-color: #ffde00;
+}
+
+#copyright-row>.container{
+    padding: 16px 0;
+    color: #515254;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+footer>.row .col{
+    float: left;
+    width: 25%;
+    height: 215px;
+    padding-top: 20px;
+}
+
+footer>.row .col h3{
+    padding-bottom: 16px;
+    color: white;
+}
+
+footer>.row .col nav li{
+    line-height: 1.2rem;
+}
+
+footer>.row .col nav li a{
+    font-size: 0.75rem;
+    color: white;
+}
+
+footer>.row .col nav li a:hover{
+    color: #ff9d1e;
+}
+
+footer>.row .col:last-child{
+    padding-left: 15px;
+    background-color: #515254;
+    position: relative;
+    z-index: 1;
+}
+
+footer>.row .col:last-child p{
+    padding-bottom: 8px;
+    color: white;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+}
+
+#tel-2{
+    padding-left: 23px;
+}
+
+footer>.row{
+    position: relative;
+}
+
+footer>.row::after{
+    display: block;
+    content: "";
+    background-color: #515254;
+    position: absolute;
+    width: 25%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* z-index: -1; */
+}
+
+/* aside */
+
+aside{
+    font-weight: bold;
+    background-color: #1f1f1f;
+    position: fixed;
+    padding: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transform: rotate(270deg);
+    right: -38px;
+    bottom: 25%;
+    z-index: 99999;
+}
+
+aside:hover{
+    right: -31px;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
+aside a ion-icon{
+    color: black;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+#bubble-wrapper{
+    display: inline-block;
+    background-color:#ffde00;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
 }
