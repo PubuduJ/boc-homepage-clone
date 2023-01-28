@@ -51,7 +51,6 @@ h6{
 /* Layout */
 
 #app-row{
-    /* background-color: yellow; */
     height: 80px;
 }
 
@@ -71,30 +70,21 @@ h6{
 }
 
 #app-row>.container{
-    /* background-color: red; */
     height: 100%;
     padding: 10px 0;
 }
 
 #logo{
-    /* float: left; */
     height: 60px;
 }
 
 #app-row>.container>.wrapper{
     float: right;
-    /* background-color: greenyellow; */
-    /* width: 85%; */
     height: 100%;
 }
 
-/* #app-row>.container>.wrapper>.row:first-child{
-    background-color: white;
-} */
-
 #app-row>.container>.wrapper>.row:last-child{
     padding-top: 10px;
-    /* background-color: rgb(16, 157, 252); */
 }
 
 #nav-lang li{
@@ -123,12 +113,10 @@ nav>li>a:hover{
 #main-nav{
     float: left;
     padding-top: 10px;
-    /* background-color: blueviolet; */
 }
 
 #smi-container{
     float: right;
-    /* background-color: black; */
     color: white;
 }
 
@@ -140,7 +128,6 @@ nav>li>a:hover{
 #smi-container ul li{
     float: left;
     padding: 5px;
-    /* background-color: white; */
     margin-left: 8px;
 }
 
@@ -285,7 +272,6 @@ footer>.row::after{
     right: 0;
     top: 0;
     bottom: 0;
-    /* z-index: -1; */
 }
 
 /* aside */
@@ -339,7 +325,6 @@ aside a ion-icon{
     right: 0;
     bottom: 0;
     margin: auto;
-    /* z-index: 1; */
     border-radius: 100%;
     width: 5px;
     height: 5px;
@@ -372,7 +357,6 @@ main>.row:first-child>.container>.col{
 }
 
 main>.row:first-child>.container>.col:first-child{
-    /* background-color: red; */
     width: 75%;
     float: left;
 }
@@ -414,7 +398,6 @@ main>.row:first-child>.container>.col:first-child>ul li .country-code{
 }
 
 main>.row:first-child>.container>.col:last-child{
-    /* background-color: blue; */
     width: 25%;
     float: right;
 }
@@ -426,12 +409,10 @@ main>.row:nth-child(2)>.container>.col{
 
 main>.row:nth-child(2)>.container>.col:first-child{
     width: 75%;
-    /* background-color: red; */
 }
 
 main>.row:nth-child(2)>.container>.col:last-child{
     width: 25%;
-    /* background-color: green; */
 }
 
 main>.row:nth-child(2)>.container>.col:last-child svg{
@@ -469,7 +450,6 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a{
 main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div{
     display: table-cell;
     padding: 10px 10px 10px 20px;
-    /* border: 1px solid black; */
     vertical-align: middle;
     line-height: 1.1rem;
 }
@@ -601,11 +581,9 @@ main>.row:nth-child(3){
 }
 
 main>.row:nth-child(3)>.container>.col{
-    /* height: 250px; */
     float: left;
     width: 25%;
     padding: 0 10px;
-    /* background-clip: content-box; */
     overflow: hidden;
 }
 
