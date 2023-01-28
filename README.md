@@ -9,7 +9,8 @@ It was developed as a **static website** for desktop view only.
 The main aspects focused on creating the webpage were **CSS box model, 
 CSS text / font / icon styles, CSS positions, CSS float, CSS inline blocks, CSS pseudo-classes and basic HTML and CSS syntax.**
 
-#### Image of the cloned homepage
+### Image of the cloned homepage
+ <img src="assets/webpage.jpg" alt="desktop-home" style="border:1px solid black;" width="1000px"/>
 
 
 ## Used Technologies
