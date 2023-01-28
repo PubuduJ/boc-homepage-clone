@@ -418,3 +418,62 @@ main>.row:first-child>.container>.col:last-child{
     width: 25%;
     float: right;
 }
+
+main>.row:nth-child(2)>.container>.col{
+    padding-top: 20px;
+    float: left;
+}
+
+main>.row:nth-child(2)>.container>.col:first-child{
+    width: 75%;
+    background-color: red;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child{
+    width: 25%;
+    /* background-color: green; */
+}
+
+main>.row:nth-child(2)>.container>.col:last-child svg{
+    height: 30px;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul{
+    border-top: 1px solid #ececec;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li{
+    display: table;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    width: 100%;      
+    border-bottom: 1px solid #ccc;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li:hover{
+    background-color: #525252;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li:hover a,
+main>.row:nth-child(2)>.container>.col:last-child>ul>li:hover svg{
+    color: #ff9d1e;
+    fill: #ff9d1e;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li>a{
+    display: table-row;
+    text-decoration: none;
+    color: black;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div{
+    display: table-cell;
+    padding: 10px 10px 10px 20px;
+    /* border: 1px solid black; */
+    vertical-align: middle;
+    line-height: 1.1rem;
+}
+
+main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
+    width: 90%;
+}
