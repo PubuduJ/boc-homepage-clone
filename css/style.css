@@ -426,7 +426,7 @@ main>.row:nth-child(2)>.container>.col{
 
 main>.row:nth-child(2)>.container>.col:first-child{
     width: 75%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 main>.row:nth-child(2)>.container>.col:last-child{
@@ -476,4 +476,74 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div{
 
 main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
     width: 90%;
+}
+
+#slider{
+    padding: 20px 10px 0;
+    height: 388px;
+    overflow-y: hidden;
+}
+
+.slide{
+    position: relative;
+    background-repeat: no-repeat;
+    height: 388px;
+    background-size: contain;
+    background-position: center;
+    float: left;
+    width: 100%;
+}
+
+.slide .prev, .slide .next{
+    position: absolute;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    background-color: rgba(128,130,133,0.9);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.slide .prev:hover, .slide .next:hover{
+    background-color: rgba(128,130,133,0.8);
+}
+
+.slide .prev{
+    left: 10px;
+}
+
+.slide .next{
+    right: 10px;
+}
+
+.slide ion-icon{
+    color: white;
+    vertical-align: sub;
+}
+
+#slide-1{
+    background-image: url('https://boc.lk/image/data/Banner/200Day_investment-2022-Sept-Web.jpg');
+}
+
+#slide-2{
+    background-image: url('https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg');
+}
+
+#slide-3{
+    background-image: url('https://boc.lk/image/data/Banner/SDA-2022-09.jpeg');
+}
+
+#slide-4{
+    background-image: url('https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg');
+}
+
+#slide-5{
+    background-image: url('https://boc.lk/image/data/Banner/green-loan-2022.jpeg');
+}
+
+#slide-6{
+    background-image: url('https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg');
 }
