@@ -479,18 +479,19 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
 }
 
 #slider{
-    padding: 20px 10px 0;
+    position: relative;
+    margin-top: 20px;
+    padding: 0 10px;
     height: 388px;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 .slide{
-    position: relative;
+    position: absolute;
     background-repeat: no-repeat;
     height: 388px;
     background-size: contain;
     background-position: center;
-    float: left;
     width: 100%;
 }
 
@@ -529,21 +530,26 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
 }
 
 #slide-2{
+    left: 100%;
     background-image: url('https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg');
 }
 
 #slide-3{
+    left: 200%;
     background-image: url('https://boc.lk/image/data/Banner/SDA-2022-09.jpeg');
 }
 
 #slide-4{
+    left: 300%;
     background-image: url('https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg');
 }
 
 #slide-5{
+    left: 400%;
     background-image: url('https://boc.lk/image/data/Banner/green-loan-2022.jpeg');
 }
 
 #slide-6{
+    left: 500%;
     background-image: url('https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg');
 }
